@@ -1,0 +1,7 @@
+f77 -o timeslabx timeslab.o type1.o type21.o type3.o type4.o type5.o \
+plot1.o misc1.o ar2.o macro.o init1.o armasl.o coeffsd.o toepl.o ffts.o \
+ar.o arma.o check.o cv.o fft.o  dtmxlk.o roots.o arspcb.o \
+ma.o meanvar.o plot.o spec.o t1am.o t1nz.o t3af.o t3gz.o arsppeak.o \
+armapred.o logo.o seas.o eig.o plot3d.o cont.o hpplot.o \
+util.o utilc.o reg.o dtar.o dist.o dtfore.o resc.o newstuff.o \
+-L/usr/local/lib -L/usr/openwin/lib -lpgplot -lX11

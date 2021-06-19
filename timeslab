@@ -1,0 +1,5 @@
+#!/bin/tcsh
+set path = ( . /usr/local/lib/timeslab $path )
+setenv PGPLOT_DIR /usr/local/lib/pgplot
+setenv PGPLOT_DEV /xwin
+exec ile -/usr/local/Splus3.4/.ilerc timeslabx
